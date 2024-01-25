@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': 'db_proj',
         'USER': 'postgres',
         'PASSWORD': 'admin',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
