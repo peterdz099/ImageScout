@@ -22,6 +22,7 @@ source myprojectenv/bin/activate
 pip install -r requirements.txt
 
 # Run Django management commands
-python manage.py migrate
+python manage.py makemigrations core_app
+python manage.py migrate core_app
 python manage.py createsuperuser --username=admin --noinput
 echo "from django.contrib.auth.models import User; User.objects.filter(username='admin').update(password='admin01')" | python manage.py shell
