@@ -2,7 +2,7 @@
 
 # Update and install required packages
 sudo apt update
-sudo apt install -y git python3-pip python3-dev libpq-dev postgresql postgresql-contrib
+sudo apt install -y python3-pip python3-dev libpq-dev postgresql postgresql-contrib
 
 # Create PostgreSQL database and user
 sudo -u postgres psql -c "CREATE DATABASE db_proj;"
