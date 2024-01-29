@@ -24,6 +24,11 @@ Run the bash script that creates empty database and sets up the project
     ./setup.sh
   ```
 
+Run virual environment
+  ```sh
+    source venv/bin/activate
+  ```
+
 Run the project on localhost
   ```sh
     python manage.py runserver
