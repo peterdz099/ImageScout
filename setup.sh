@@ -15,7 +15,7 @@ sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE db_proj TO admin;"
 
 # Install virtualenv and create a virtual environment
 pip3 install virtualenv
-python3 -m virtualenv tenv
+python3 -m virtualenv venv
 source venv/bin/activate
 sudo mkdir static
 
