@@ -25,5 +25,5 @@ pip install -r requirements.txt
 # Run Django management commands
 python manage.py makemigrations 
 python manage.py migrate 
-python manage.py createsuperuser --username=admin --email --noinput
+python manage.py createsuperuser --username=admin 
 echo "from django.contrib.auth.models import User; User.objects.filter(username='admin').update(password='admin01')" | python manage.py shell
