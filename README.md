@@ -14,13 +14,17 @@ Change the current working directory
     cd ImageScout
   ```
 
+Add execute permission to ```setup.sh``` file.
+  ```sh
+    chmod +x script.sh
+  ```
+
 Run the bash script that creates empty database and sets up the project
   ```sh
     ./setup.sh
   ```
 
 Run the project on localhost
-
   ```sh
     python manage.py runserver
   ```
