@@ -16,7 +16,7 @@ Change the current working directory
 
 Add execute permission to ```setup.sh``` file.
   ```sh
-    chmod +x script.sh
+    chmod +x setup.sh
   ```
 
 Run the bash script that creates empty database and sets up the project
