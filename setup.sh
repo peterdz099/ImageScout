@@ -20,10 +20,10 @@ source venv/bin/activate
 sudo mkdir static
 
 # Install project dependencies
-sudo pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Run Django management commands
-python manage.py makemigrations 
-python manage.py migrate 
-python manage.py createsuperuser --username=admin --email=admin@example.com --noinput
+python3 manage.py makemigrations 
+python3 manage.py migrate 
+python3 manage.py createsuperuser --username=admin --email=admin@example.com --noinput
 echo "from django.contrib.auth.models import User; User.objects.filter(username='admin').update(password='admin01')" | python manage.py shell
