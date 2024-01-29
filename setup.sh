@@ -26,4 +26,4 @@ pip3 install -r requirements.txt
 python3 manage.py makemigrations 
 python3 manage.py migrate 
 python3 manage.py createsuperuser --username=admin --email=admin@example.com --noinput
-echo "from django.contrib.auth.models import User; User.objects.filter(username='admin').update(password='admin01')" | python manage.py shell
+echo "from django.contrib.auth.models import User; User.objects.filter(username='admin').update(password='ImageScout01')" | python manage.py shell
