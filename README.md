@@ -36,4 +36,4 @@ Run the project on localhost
 
 ## Usage
 
-To play around with the software you can login using ```admin``` login and ```admin01``` password and simply add the **animals.pdf** to the database using GUI. After that you can test other features using images and PDF file from ```/testing``` directory. To manage the database as an admin user just go to ```http://127.0.0.1:8000/admin``` page and login as before. 
+To play around with the software you can login using ```admin``` login and ```ImageScout01``` password and simply add the **animals.pdf** to the database using GUI. After that you can test other features using images and PDF file from ```/testing``` directory. To manage the database as an admin user just go to ```http://127.0.0.1:8000/admin``` page and login as before. 
